@@ -1,0 +1,10 @@
+test:
+  age: '10'
+  name: name
+
+management:
+  endpoints:
+    web:
+      base-path: /actuator  # ·ÃÎÊ¸ùÂ·¾¶
+      exposure:
+        include: "*"
